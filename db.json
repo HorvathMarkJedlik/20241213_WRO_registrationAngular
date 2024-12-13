@@ -1,33 +1,6 @@
 {
   "registrations": [
     {
-      "id": "1",
-      "category": "Future Innovators",
-      "memberCount": 2,
-      "teamLeader": "John Doe",
-      "teamLeaderBirthDate": "2005-03-12",
-      "teamLeaderEmail": "johndoe@example.com",
-      "teamName": "Alpha Squad"
-    },
-    {
-      "id": "2",
-      "category": "Robomission Senior",
-      "memberCount": 2,
-      "teamLeader": "Jane Smith",
-      "teamLeaderBirthDate": "2003-07-25",
-      "teamLeaderEmail": "janesmith@example.com",
-      "teamName": "Beta Builders"
-    },
-    {
-      "id": "3",
-      "category": "Future Innovators",
-      "memberCount": 3,
-      "teamLeader": "Carlos Martinez",
-      "teamLeaderBirthDate": "2007-11-08",
-      "teamLeaderEmail": "carlosmartinez@example.com",
-      "teamName": "Future Tech"
-    },
-    {
       "id": "4",
       "category": "Robosport",
       "memberCount": 2,
@@ -179,15 +152,6 @@
       "teamLeaderBirthDate": "2005-04-06",
       "teamLeaderEmail": "lilywalker@example.com",
       "teamName": "Tech Pioneers"
-    },
-    {
-      "id": "444d",
-      "category": "Robomission Elementary",
-      "memberCount": "33",
-      "teamLeader": "fef",
-      "teamLeaderBirthDate": "2024-12-12",
-      "teamLeaderEmail": "ee",
-      "teamName": "ere"
     }
   ]
 }
