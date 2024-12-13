@@ -4,7 +4,7 @@
           <thead>
             <tr class="text-center">
                 <th>
-                    <span data-bs-toggle="modal" data-bs-target="#exampleModal">&#10010;</span>
+                    <span (click)="new()" data-bs-toggle="modal" data-bs-target="#exampleModal">&#10010;</span>
                 </th>
                 <th>Csapatnév</th>
                 <th>Kategória</th>
@@ -19,8 +19,8 @@
               <tr>
 
                 <td>
-                  <span>&#9998;</span>
-                  <span>&#10008;</span>
+                  <span (click)="modify(reg)">&#9998;</span>
+                  <span (click)="delete(reg)">&#10008;</span>
                 </td>
                 <td>{{reg.teamName}}</td>
                 <td>{{reg.category}}</td>
@@ -34,3 +34,5 @@
 
         </table>
     </div>
+
+    <app-team [teamData]="newRegistration" (saved)="saveNew($event)"></app-team>
